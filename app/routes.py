@@ -1,6 +1,5 @@
 from flask import Flask,jsonify,request,abort,make_response
 from app import app
-from app import storage
 
 locations = [
     {
